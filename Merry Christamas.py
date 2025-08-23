@@ -1,0 +1,24 @@
+"""Merry Christmas!
+Chef is planning Christmas festivities and has three activities to choose from:
+
+Decorating a Christmas tree, which takes 
+1
+1 hour.
+Baking cookies, which takes 
+2
+2 hours.
+Making a gingerbread house, which takes 
+4
+4 hours.
+Given that Chef has 
+X
+X hours available, determine the maximum number of activities he can complete.
+
+Note that no two activities can overlap in time."""
+x = int(input())
+if x >= 7:
+    print(3)
+elif x >= 3:
+    print(2)
+else:
+    print(1)
